@@ -1,19 +1,31 @@
 {
     "name": "xinax/laravel-latch",
-    "description": "",
+    "description": "Laravel wrapper for Latch SDK (Second security layer).",
+    "homepage": "https://github.com/xinax/laravel-latch",
+    "keywords": ["latch", "security", "authentication", "laravel-latch", "laravel", "digital"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Nicolás Daniel Palumbo",
             "email": "n@xinax.net"
         }
     ],
+    "support": {
+        "issues": "https://github.com/xinax/laravel-latch/issues"
+    },
     "require": {
-        "php": ">=5.3.0",
-        "illuminate/support": "4.1.*"
+        "php": ">=5.4.0",
+        "laravel/framework": "4.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
     },
     "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
         "psr-0": {
-            "Xinax\\LaravelLatch": "src/",
+            "Xinax\\LaravelGettext\\": "src/",
             "ElevenPaths\\Latch": "src/"
         }
     },
