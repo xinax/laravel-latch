@@ -1,0 +1,21 @@
+{
+    "name": "xinax/laravel-latch",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolás Daniel Palumbo",
+            "email": "n@xinax.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Xinax\\LaravelLatch": "src/",
+            "ElevenPaths\\Latch": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
