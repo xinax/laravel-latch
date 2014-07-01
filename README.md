@@ -1,9 +1,7 @@
 # Laravel Latch 
-
 *Laravel package for Latch SDK.*
 
 More info about Latch: https://latch.elevenpaths.com/
-
 Official Latch php SDK: https://github.com/ElevenPaths/latch-sdk-php
 
 ## Install
@@ -12,35 +10,35 @@ This package requires Laravel 4.1.*+
 
 - Add repository to composer.json:
 
-    ```json
+```json
     "xinax/laravel-latch": "dev-master"
-    ```
+```
 
 - Update composer:
 
-    ```bash
+```bash
     composer update
-    ```
+```
 
 - Register the service provider in app.php
 
-    ```php
+```php
     'Xinax\LaravelLatch\LaravelLatchServiceProvider',
-    ```
+```
 
 ## Configuration
 
 - Publish configuration file:
 
-    ```bash
+```bash
     php artisan config:publish xinax/laravel-latch
-    ```
+```
     
 - Set application ID and secret in:
 
-    ```php
+```php
     app/config/packages/xinax/laravel-latch/config.php
-    ```
+```
     
 ## Usage
 
