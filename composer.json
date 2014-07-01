@@ -25,7 +25,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Xinax\\LaravelGettext\\": "src/",
+            "Xinax\\LaravelLatch\\": "src/",
             "ElevenPaths\\Latch": "src/"
         }
     },
